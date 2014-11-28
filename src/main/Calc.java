@@ -4,9 +4,9 @@ package main;
  * Created by therioyo on 28.11.14.
  */
 public class Calc {
-    int a;
-    int b;
-    char c;
+    private int a;
+    private int b;
+    private char c;
 
     public Calc(int a, int b, char c){
         this.a = a;

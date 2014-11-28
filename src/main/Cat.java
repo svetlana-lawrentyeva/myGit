@@ -6,10 +6,10 @@ import java.util.*;
  * Created by therioyo on 28.11.14.
  */
 public class Cat {
-    static int idCounter = 0;
-    int id;
-    String name;
-    Map<String,String> history;
+    private static int idCounter = 0;
+    private int id;
+    private String name;
+    private Map<String,String> history;
 
     public Cat(String name){
         this.id = idCounter++;
