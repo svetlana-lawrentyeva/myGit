@@ -14,7 +14,7 @@ public class HelloWorld {
         Cat cat = new Cat("Tom");
         cat.addHistory("first visit");
         Thread.sleep(10000);
-        cat.addHistory("weight=5kg");
+        cat.addHistory("weight=7kg");
 
         Cat kitten = new Cat("Bars");
         kitten.addHistory("first visit, 2 months old");
